@@ -37,22 +37,24 @@
  # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-cd 
-if [[ -d honey ]]
+
+if [[ -d ~/honey ]]
 then
-cd honey/bin
+cd ~/honey/bin
 {
 cp honey /bin
 cp honey /usr/local/bin
+chmod +x /bin/honey
+chmod +x /usr/local/bin/honey
 } &> /dev/null
-honey
 else
-cd
+cd ~
 git clone https://github.com/entynetproject/honey.git
-cd honey/bin
+cd ~/honey/bin
 {
 cp honey /bin
 cp honey /usr/local/bin
+chmod +x /bin/honey
+chmod +x /usr/local/bin/honey
 } &> /dev/null
-honey
 fi
