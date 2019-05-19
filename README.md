@@ -52,7 +52,7 @@
 
 > ./install.sh
 
-# How to execute HUE
+# How to execute HUE (root)
 
     INFO: Do not realy execute it HUE on your computer,
     it is very dangerous and you will not restore your data!
@@ -62,6 +62,15 @@
     INFO: After running 'honey' into your terminal you
     need to confirm executing of HUE with this input: 
     ('no' to abort executing, 'yes' to execute)
+
+# How to execute HUE (user)
+
+    INFO: Do not realy execute it HUE on your computer,
+    it is very dangerous and you will not restore your data!
+
+> cd honey
+
+> python honey.py
 
 # Honey BSD license
 
