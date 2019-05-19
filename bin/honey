@@ -39,6 +39,7 @@
 
 
 cd ~/honey
+clear
 sleep 1
 echo -e "Are you sure doing this?(\e[1;33myes\e[0m/\e[1;33mno\e[0m): "
 echo -e "Use '\e[1;33mno\e[0m' to save data!"
