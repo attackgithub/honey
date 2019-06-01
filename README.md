@@ -52,6 +52,17 @@
 
 > ./install.sh
 
+# How to uninstall HUE
+
+    INFO: If do not want to use Honey Unix Encryptor
+    you can uninstall it with uninstall.sh!
+
+> cd honey
+
+> chmod +x uninstall.sh
+
+> ./uninstall.sh
+
 # How to execute HUE (root)
 
     INFO: Do not realy execute it HUE on your computer,
