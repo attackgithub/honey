@@ -37,6 +37,8 @@
  # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  
+ {
  rm /usr/local/bin/honey
  rm /bin/honey
  rm ~/honey 
+ } &> /dev/null
