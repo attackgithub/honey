@@ -44,7 +44,7 @@
 # How to install HUE
 
     INFO: Honey Unix Encryptor will be installed to /bin and
-    /usr/local/bin like /bin/honey and /usr/local/bin/honey!
+    /usr/local/bin as /bin/honey and /usr/local/bin/honey!
 
 > cd honey
 
