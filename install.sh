@@ -48,9 +48,9 @@ chmod +x /usr/local/bin/honey
 } &> /dev/null
 else
 cd ~
+{
 git clone https://github.com/entynetproject/honey.git
 cd ~/honey/bin
-{
 cp honey /bin
 cp honey /usr/local/bin
 chmod +x /bin/honey
