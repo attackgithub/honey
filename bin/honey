@@ -38,6 +38,9 @@
  # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
+cd
+if [[ -d ~/honey ]]
+then
 cd ~/honey
 sleep 0.5
 clear
@@ -58,4 +61,42 @@ then
 sleep 1
 clear
 exit
+fi
+else
+{
+ASESR="$( timeout -s SIGTERM 40 curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//' )"
+} &> /dev/null
+if [[ "$ASESR" != "" ]]
+then 
+cd
+{
+git clone https://github.com/entynetproject/honey.git
+cd ~/honey
+} &> /dev/null
+cd ~/honey
+sleep 0.5
+clear
+sleep 1
+echo -e "Are you sure doing this?(\e[1;33myes\e[0m/\e[1;33mno\e[0m): "
+echo -e "Use '\e[1;33mno\e[0m' to save data!"
+read -p $'(\e[4;93mexecute\e[0m\en)> ' EXEC
+
+
+if [[ "$EXEC" = "yes" ]]
+then
+sleep 1
+python ~/honey/honey.py
+fi
+
+if [[ "$EXEC" = "no" ]]
+then
+sleep 1
+clear
+exit
+fi
+else
+cd
+sleep 1
+exit
+fi
 fi
