@@ -72,7 +72,7 @@
 
     INFO: After running 'honey' into your terminal you
     need to confirm executing of HUE with this input: 
-    ('no' to abort executing, 'yes' to execute)
+    ('no' to abort execution, 'yes' to execute)
 
 # How to execute HUE (user)
 
