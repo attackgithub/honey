@@ -71,7 +71,7 @@
 > honey
 
     INFO: After running 'honey' into your terminal you
-    need to confirm executing of HUE with this input: 
+    will need to confirm executing of HUE with this input: 
     ('no' to abort execution, 'yes' to confirm execution)
 
 # How to execute HUE (user)
