@@ -65,7 +65,7 @@
 
 # How to execute HUE (root)
 
-    INFO: Do not realy execute it HUE on your computer,
+    INFO: Do not realy execute HUE on your computer,
     it is very dangerous and you will not restore your data!
 
 > honey
