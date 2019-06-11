@@ -54,8 +54,8 @@
 
 # How to uninstall HUE
 
-    INFO: If do not want to use Honey Unix Encryptor
-    you can uninstall it with uninstall.sh!
+    INFO: If you do not want to use Honey Unix Encryptor
+    you can uninstall it using uninstall.sh!
 
 > cd honey
 
