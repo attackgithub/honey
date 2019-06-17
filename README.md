@@ -91,8 +91,8 @@
 
 # Honey BSD license
 
-     HUE is an unix filesystem 256-bit AES encryptor.
-     Copyright (C) 2019 Entynetproject <Ivan Nikolsky>
+       HUE is an unix filesystem 256-bit AES encryptor.
+       Copyright (C) 2019 Entynetproject <Ivan Nikolsky>
  
 
        Modified BSD License
