@@ -22,7 +22,7 @@
     <img src="https://img.shields.io/badge/language-python-blue.svg">
  </a>
   <a href="https://github.com/entynetproject/honey">
-      <img src="https://img.shields.io/badge/AES-256bit-red.svg?maxAge=2592000">
+      <img src="https://img.shields.io/badge/Algorithm-AES-256bit-red.svg?maxAge=2592000">
  </a>
   <a href="https://github.com/entynetproject/honey/issues?q=is%3Aissue+is%3Aclosed">
       <img src="https://img.shields.io/github/issues/entynetproject/copycat.svg">
@@ -37,13 +37,13 @@
 
 # Honey encryptor credits
 
-    Name      : Honey Encryptor
+    Name      : Honey Unix Encryptor
     Developer : Entynetproject
     Version   : v1.9 (honey-v1.9-dev)
     Algorithm : AES-256bit (https://aesencryption.net)
     Site      : https://entynetproject.simplesite.com/
 
-# About honey encryptor
+# About honey unix encryptor
 
     INFO: Honey Unix Encryptor (HUE) is intended to encrypt every bit of 
     data in a unix filesystem using 256-bit AES with a self-destructing, 
