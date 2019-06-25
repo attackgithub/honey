@@ -43,7 +43,7 @@
     Algorithm : AES-256bit (https://aesencryption.net)
     Site      : https://entynetproject.simplesite.com/
 
-# About honey unix encryptor
+# About honey encryptor
 
     INFO: Honey Unix Encryptor (HUE) is intended to encrypt every bit of 
     data in a unix filesystem using 256-bit AES with a self-destructing, 
@@ -97,7 +97,7 @@
     Use this tool wisely and never without permission.
     I am not responsible for anything you do with this tool.
 
-# Honey BSD license
+# HUE BSD license
 
        HUE is an unix filesystem 256-bit AES encryptor.
        Copyright (C) 2019 Entynetproject <Ivan Nikolsky>
