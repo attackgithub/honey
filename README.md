@@ -22,7 +22,7 @@
     <img src="https://img.shields.io/badge/language-python-blue.svg">
  </a>
   <a href="https://github.com/entynetproject/honey">
-      <img src="https://img.shields.io/badge/Algorithm-AES-256bit-red.svg?maxAge=2592000">
+      <img src="https://img.shields.io/badge/Algorithm-AES256bit-red.svg?maxAge=2592000">
  </a>
   <a href="https://github.com/entynetproject/honey/issues?q=is%3Aissue+is%3Aclosed">
       <img src="https://img.shields.io/github/issues/entynetproject/copycat.svg">
