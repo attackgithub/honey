@@ -35,6 +35,14 @@
  </a>
 </p>
 
+# Honey encryptor credits
+
+    Name      : Honey Encryptor
+    Developer : Entynetproject
+    Version   : v1.9 (honey-v1.9-dev)
+    Algorithm : AES-256bit (https://aesencryption.net)
+    Site      : https://entynetproject.simplesite.com/
+
 # About honey encryptor
 
     INFO: Honey Unix Encryptor (HUE) is intended to encrypt every bit of 
