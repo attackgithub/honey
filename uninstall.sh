@@ -56,5 +56,5 @@ fi
 {
 rm /usr/local/bin/honey
 rm /bin/honey
-rm ~/honey 
+rm -r /etc/honey 
 } &> /dev/null
