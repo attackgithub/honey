@@ -53,9 +53,9 @@ sleep 1
 exit
 fi
 
-if [[ -d ~/honey ]]
+if [[ -d /etc/honey ]]
 then
-cd ~/honey/bin
+cd /etc/honey/bin
 {
 cp honey /bin
 cp honey /usr/local/bin
@@ -63,10 +63,10 @@ chmod +x /bin/honey
 chmod +x /usr/local/bin/honey
 } &> /dev/null
 else
-cd ~
+cd /etc
 {
 git clone https://github.com/entynetproject/honey.git
-cd ~/honey/bin
+cd /etc/honey/bin
 cp honey /bin
 cp honey /usr/local/bin
 chmod +x /bin/honey
