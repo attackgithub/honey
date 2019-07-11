@@ -39,9 +39,9 @@
 
 
 cd
-if [[ -d /etc/honey ]]
+if [[ -d ~/honey ]]
 then
-cd /etc/honey
+cd ~/honey
 sleep 0.5
 clear
 sleep 1
@@ -53,7 +53,7 @@ read -p $'(\e[4;93mexecute\e[0m\en)> ' EXEC
 if [[ "$EXEC" = "yes" ]]
 then
 sleep 1
-python /etc/honey/honey.py
+python ~/honey/honey.py
 fi
 
 if [[ "$EXEC" = "no" ]]
@@ -68,12 +68,12 @@ ASESR="$( timeout -s SIGTERM 40 curl -s checkip.dyndns.org | sed -e 's/.*Current
 } &> /dev/null
 if [[ "$ASESR" != "" ]]
 then 
-cd /etc
+cd ~
 {
 git clone https://github.com/entynetproject/honey.git
-cd /etc/honey
+cd ~/honey
 } &> /dev/null
-cd /etc/honey
+cd ~/honey
 sleep 0.5
 clear
 sleep 1
@@ -85,7 +85,7 @@ read -p $'(\e[4;93mexecute\e[0m\en)> ' EXEC
 if [[ "$EXEC" = "yes" ]]
 then
 sleep 1
-python /etc/honey/honey.py
+python ~/honey/honey.py
 fi
 
 if [[ "$EXEC" = "no" ]]
