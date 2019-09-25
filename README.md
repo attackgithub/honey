@@ -18,10 +18,10 @@
   <a href="https://github.com/entynetproject/honey/releases">
     <img src="https://img.shields.io/github/release/entynetproject/honey.svg">
   </a>
-  <a href="https://ru.m.wikipedia.org/wiki/Python">
+  <a href="https://wikipedia.org/wiki/Python_(programming_language)">
     <img src="https://img.shields.io/badge/language-python-blue.svg">
  </a>
-  <a href="https://github.com/entynetproject/honey">
+  <a href="https://aesencryption.net/">
       <img src="https://img.shields.io/badge/crypto-AES-red.svg?maxAge=2592000">
  </a>
   <a href="https://github.com/entynetproject/honey/issues?q=is%3Aissue+is%3Aclosed">
@@ -30,7 +30,7 @@
   <a href="https://github.com/entynetproject/honey/wiki">
       <img src="https://img.shields.io/badge/wiki%20-honey-lightgrey.svg">
  </a>
-  <a href="https://mobile.twitter.com/entynetproject">
+  <a href="https://twitter.com/entynetproject">
     <img src="https://img.shields.io/badge/twitter-entynetproject-blue.svg">
  </a>
 </p>
