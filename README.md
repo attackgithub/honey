@@ -21,7 +21,7 @@
   <a href="https://wikipedia.org/wiki/Python_(programming_language)">
     <img src="https://img.shields.io/badge/language-python-blue.svg">
  </a>
-  <a href="https://aesencryption.net/">
+  <a href="https://github.com/entynetproject/honey">
       <img src="https://img.shields.io/badge/crypto-AES-red.svg?maxAge=2592000">
  </a>
   <a href="https://github.com/entynetproject/honey/issues?q=is%3Aissue+is%3Aclosed">
@@ -40,7 +40,7 @@
     Name      : Honey Unix Encryptor
     Developer : Entynetproject
     Version   : v1.9 (honey-v1.9-dev)
-    Crypto    : AES-256bit (https://aesencryption.net/)
+    Crypto    : AES-256bit (AES Crypto)
     Site      : https://entynetproject.simplesite.com/
 
 # About honey encryptor
