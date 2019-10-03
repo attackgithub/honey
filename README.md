@@ -35,7 +35,7 @@
  </a>
 </p>
 
-# Honey encryptor credits
+# Honey encryptor details
 
     Name      : Honey Unix Encryptor
     Developer : Entynetproject
