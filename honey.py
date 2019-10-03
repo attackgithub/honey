@@ -38,10 +38,10 @@
  # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
-printf "\033]2;Honey Unix Encryptor\a"
-
 import os
+
+os.system("printf '\033]2;Honey Unix Encryptor\a'")
+
 import subprocess
 import sys
 import header
