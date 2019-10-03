@@ -35,14 +35,6 @@
  </a>
 </p>
 
-# Honey encryptor details
-
-    Name      : Honey Unix Encryptor
-    Developer : Entynetproject
-    Version   : v1.9 (honey-v1.9-dev)
-    Crypto    : AES-256bit (AES Crypto)
-    Site      : https://entynetproject.simplesite.com/
-
 # About honey encryptor
 
     INFO: Honey Unix Encryptor (HUE) is intended to encrypt 
