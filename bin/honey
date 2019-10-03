@@ -38,6 +38,8 @@
  # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
+printf '\033]2;Honey Unix Encryptor\a'
+
 cd
 if [[ -d ~/honey ]]
 then
