@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
- # HUE is an UNIX filesystem 256-bit AES encryptor.
+ # HUE is an Unix filesystem 256-bit AES encryptor.
  # Copyright (C) 2019 Entynetproject <Ivan Nikolsky>
  #
 
