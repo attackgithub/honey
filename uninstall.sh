@@ -1,6 +1,6 @@
 #!/bin/bash
 
- # HUE is an unix filesystem 256-bit AES encryptor.
+ # HUE is an UNIX filesystem 256-bit AES encryptor.
  # Copyright (C) 2019 Entynetproject <Ivan Nikolsky>
  #
 
@@ -37,20 +37,14 @@
  # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  
-CE="\033[0m"
 RS="\033[1;31m"
 YS="\033[1;33m"
+CE="\033[0m"
 
-WHO="$( whoami )"
-
-if [[ "$WHO" != "root" ]]
+if [[ $EUID -ne 0 ]]
 then
-sleep 1
-echo -e "$RS"run it as"$CE" "$YS"root"$CE"
-sleep 1
-echo -e "$RS"or use"$CE" "$YS"sudo"$CE"
-sleep 1
-exit
+   echo "["$RS"*"$CE"] "$RS"This script must be run as "$YS"root"$C"" 1>&2
+   exit
 fi
  
 {
