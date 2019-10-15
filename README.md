@@ -38,7 +38,7 @@
 # About honey encryptor
 
     INFO: Honey Unix Encryptor (HUE) is intended to encrypt 
-    every bit of data in a unix filesystem using 256-bit AES 
+    every bit of data in an Unix filesystem using 256-bit AES 
     with a self-destructing and randomly generated key.
 
 # How to install HUE
@@ -91,7 +91,7 @@
 
 # Honey BSD license
 
-       HUE is an unix filesystem 256-bit AES encryptor.
+       HUE is an Unix filesystem 256-bit AES encryptor.
        Copyright (C) 2019 Entynetproject <Ivan Nikolsky>
  
 
